@@ -14,7 +14,7 @@ function Home() {
             Hi, my name is{" "}
             <h2 className="font-weight-bolder">Caleb Ojana Williams.</h2>
           </p>
-          <p>I am a Software Engineer, Cinematographer and Content Creator.</p>
+          <p>I'm a Software Developer, Cinematographer and Content Creator.</p>
         </div>
       </section>
       <Footer />

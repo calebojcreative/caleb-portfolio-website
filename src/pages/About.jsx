@@ -13,7 +13,7 @@ function About() {
         </div>
         <div className="p-3 font-weight-bold">
           <p>
-            My name is Caleb Williams and I’m a Cinematographer and Frontend
+            My name is Caleb Williams. I’m a Cinematographer and a Frontend
             Developer based in Lagos, Nigeria.
           </p>
           <p>

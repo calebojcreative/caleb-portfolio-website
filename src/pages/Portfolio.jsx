@@ -39,9 +39,9 @@ function Portfolio() {
         <div className="pt-5">
           <div className="p-3 border">
             <h4 className="font-weight-bolder text-center">Omnifood Website</h4>
-            <p>Responsive website for a food courier service</p>
+            <p>Responsive website for a food courier service.</p>
             <p>
-              This is website to exhibit and deliver meal plans to customers
+              This is a website to exhibit and deliver meal plans to customers
               suited to their needs.
             </p>
             <div>
