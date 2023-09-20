@@ -1,14 +1,30 @@
 import React from "react";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
+
+  const onClick = () => {
+    navigate("/");
+  };
+
+  const onClickAbout = () => {
+    navigate("/about");
+  };
+
+  const onClickPortfolio = () => {
+    navigate("/portfolio");
+  };
+
+  const onClickCertifications = () => {
+    navigate("/certifications");
+  };
 
   return (
     <nav class="navbar navbar-expand-md bg-light navbar-light shadow-sm">
-      <a class="navbar-brand font-weight-bolder" href="/">
+      <div onClick={onClick} class="navbar-brand font-weight-bolder">
         CALEB
-      </a>
+      </div>
 
       <button
         class="navbar-toggler"
@@ -22,19 +38,19 @@ function Navbar() {
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="/about">
+            <div class="nav-link" onClick={onClickAbout}>
               About
-            </a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/portfolio">
+            <div class="nav-link" onClick={onClickPortfolio}>
               Portfolio
-            </a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/certifications">
+            <div class="nav-link" onClick={onClickCertifications}>
               Certifications
-            </a>
+            </div>
           </li>
         </ul>
       </div>
