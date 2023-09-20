@@ -6,12 +6,12 @@ function Navbar() {
 
   return (
     <nav class="navbar navbar-expand-md bg-light navbar-light shadow-sm">
-      <div
+      <button
         onClick={() => navigate("/")}
         class="navbar-brand font-weight-bolder"
       >
         CALEB
-      </div>
+      </button>
 
       <button
         class="navbar-toggler"
@@ -25,19 +25,22 @@ function Navbar() {
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <div class="nav-link" onClick={() => navigate("/about")}>
+            <button class="nav-link" onClick={() => navigate("/about")}>
               About
-            </div>
+            </button>
           </li>
           <li class="nav-item">
-            <div class="nav-link" onClick={() => navigate("/portfolio")}>
+            <button class="nav-link" onClick={() => navigate("/portfolio")}>
               Portfolio
-            </div>
+            </button>
           </li>
           <li class="nav-item">
-            <div class="nav-link" onClick={() => navigate("/certifications")}>
+            <button
+              class="nav-link"
+              onClick={() => navigate("/certifications")}
+            >
               Certifications
-            </div>
+            </button>
           </li>
         </ul>
       </div>
