@@ -12,7 +12,9 @@ function Home() {
         <div className="hero-content">
           <p>
             Hi, my name is{" "}
-            <h2 className="font-weight-bolder">Caleb Ojana Williams.</h2>
+            <h2 className="font-weight-bolder important">
+              Caleb Ojana Williams.
+            </h2>
           </p>
           <p>I'm a Software Developer, Cinematographer and Content Creator.</p>
           <Social />
