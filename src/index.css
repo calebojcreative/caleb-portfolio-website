@@ -10,7 +10,6 @@
 a {
   text-decoration: none;
   color: black;
-  margin-left: 1rem;
 }
 
 a:hover {
@@ -23,12 +22,16 @@ a:hover {
 }
 
 @media screen and (min-width: 350px) {
+  a {
+    margin-left: 0.5rem;
+  }
+
   p {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .subject {
-    font-size: 30px;
+    font-size: 27px;
   }
 
   .hero {
@@ -36,7 +39,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
-    gap: 1rem;
+    gap: 0.7rem;
   }
 
   .hero-img {
@@ -50,8 +53,16 @@ a:hover {
 }
 
 @media screen and (min-width: 480px) {
+  a {
+    margin-left: 1rem;
+  }
+
   p {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .subject {
+    font-size: 35px;
   }
 
   .hero {
@@ -73,6 +84,22 @@ a:hover {
 }
 
 @media screen and (min-width: 575px) {
+  a {
+    margin-left: 1.5rem;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .hero-img {
+    max-height: 500px;
+    border-radius: 20px;
+  }
+
+  .hero-content {
+    padding: 0 2rem;
+  }
 }
 
 @media screen and (min-width: 767px) {
