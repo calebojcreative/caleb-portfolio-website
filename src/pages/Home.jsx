@@ -1,23 +1,23 @@
 import React from "react";
 import caleb from "../imgs/caleb-test.JPG";
-import Footer from "../components/Footer";
+import Social from "../components/Social";
 
 function Home() {
   return (
     <>
-      <section>
-        <div className="p-3">
-          <img src={caleb} alt="caleb" className="img-fluid img-thumbnail" />
+      <section className="hero">
+        <div>
+          <img src={caleb} alt="caleb" className="hero-img" />
         </div>
-        <div className="p-3">
+        <div className="hero-content">
           <p>
             Hi, my name is{" "}
             <h2 className="font-weight-bolder">Caleb Ojana Williams.</h2>
           </p>
           <p>I'm a Software Developer, Cinematographer and Content Creator.</p>
+          <Social />
         </div>
       </section>
-      <Footer />
     </>
   );
 }
