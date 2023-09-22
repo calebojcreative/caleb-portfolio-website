@@ -55,6 +55,7 @@ a:hover {
 @media screen and (min-width: 480px) {
   a {
     margin-left: 1rem;
+    font-size: 1rem;
   }
 
   p {
@@ -86,10 +87,15 @@ a:hover {
 @media screen and (min-width: 575px) {
   a {
     margin-left: 1.5rem;
+    font-size: 1.2rem;
   }
 
   p {
     font-size: 15px;
+  }
+
+  .subject {
+    font-size: 40px;
   }
 
   .hero-img {
@@ -103,17 +109,122 @@ a:hover {
 }
 
 @media screen and (min-width: 767px) {
+  a {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .logo {
+    margin-right: 1rem;
+  }
+
+  .subject {
+    font-size: 45px;
+  }
+
+  .hero-img {
+    max-height: 600px;
+    border-radius: 20px;
+  }
+
+  .hero-content {
+    padding: 0 2rem;
+  }
 }
 
 @media screen and (min-width: 991px) {
+  a {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .subject {
+    font-size: 37px;
+  }
+
   .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 0.1rem;
+  }
+
+  .hero-img {
+    max-height: 450px;
+    border-radius: 20px;
+    margin-left: 1rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
   }
 }
 
 @media screen and (min-width: 1199px) {
+  a {
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .subject {
+    font-size: 45px;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.1rem;
+  }
+
+  .hero-img {
+    max-height: 500px;
+    border-radius: 20px;
+    margin-left: 3rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+  }
 }
 
 @media screen and (min-width: 1599px) {
+  a {
+    margin-left: 2.5rem;
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .subject {
+    font-size: 50px;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.1rem;
+  }
+
+  .hero-img {
+    max-height: 600px;
+    border-radius: 20px;
+    margin-left: 7rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+  }
 }

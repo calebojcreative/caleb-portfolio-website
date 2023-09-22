@@ -8,7 +8,7 @@ function Navbar() {
     <nav class="navbar navbar-expand-md bg-light navbar-light shadow-sm">
       <div
         onClick={() => navigate("/")}
-        className="font-weight-bolder important"
+        className="font-weight-bolder important logo"
       >
         CALEB
       </div>
