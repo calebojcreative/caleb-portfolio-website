@@ -1,5 +1,5 @@
 import React from "react";
-import caleb from "../imgs/caleb-test.JPG";
+import caleb from "../imgs/caleb-1.JPG";
 import Social from "../components/Social";
 
 function Home() {
@@ -11,12 +11,12 @@ function Home() {
         </div>
         <div className="hero-content">
           <p>
-            Hi, my name is{" "}
+            Hi, my name is
             <h2 className="font-weight-bolder important subject">
               Caleb Ojana Williams.
             </h2>
+            I'm a Software Developer, Cinematographer and Content Creator.
           </p>
-          <p>I'm a Software Developer, Cinematographer and Content Creator.</p>
           <Social />
         </div>
       </section>

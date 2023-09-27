@@ -2,7 +2,7 @@ import React from "react";
 
 function Copyright() {
   return (
-    <div className="p-2 pt-4">
+    <div className="p-2 pt-4 copyright">
       <p className="small">
         Copyright &copy; 2023 Caleb Ojana Williams - All rights reserved
       </p>
