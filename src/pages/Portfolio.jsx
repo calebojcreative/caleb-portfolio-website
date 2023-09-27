@@ -56,7 +56,7 @@ function Portfolio() {
               <div>
                 <ul className="list-group list-group-horizontal list-group-flush ">
                   <li className="list-group-item border-0">
-                    <a href="#">
+                    <a href="https://github.com/calebojcreative">
                       <FaGithub />
                     </a>
                   </li>
