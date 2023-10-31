@@ -5,7 +5,7 @@ function Navbar() {
   const navigate = useNavigate();
 
   return (
-    <nav class="navbar navbar-expand-md bg-light navbar-light shadow-sm">
+    <nav class="navbar navbar-expand-md bg-light navbar-light shadow-sm navbar-all">
       <div
         onClick={() => navigate("/")}
         className="font-weight-bolder important logo"

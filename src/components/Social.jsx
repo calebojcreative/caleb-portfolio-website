@@ -9,7 +9,7 @@ import {
 
 function Social() {
   return (
-    <div>
+    <div className="hero-socials">
       <ul className="list-group list-group-horizontal list-group-flush ">
         <li className="list-group-item border-0">
           <a href="https://github.com/calebojcreative">

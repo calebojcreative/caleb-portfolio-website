@@ -10,7 +10,7 @@ function Home() {
           <img src={caleb} alt="caleb" className="hero-img" />
         </div>
         <div className="hero-content">
-          <p>
+          <p className="hero-text">
             Hi, my name is
             <h2 className="font-weight-bolder important subject">
               Caleb Ojana Williams.
