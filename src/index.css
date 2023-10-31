@@ -167,7 +167,7 @@ p {
   }
 
   .hero-content {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   .about-img,
@@ -229,7 +229,7 @@ p {
   }
 
   .hero-content {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   .about-img,
@@ -288,7 +288,7 @@ p {
   }
 
   .hero-content {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 }
 
@@ -341,11 +341,11 @@ p {
   .about-img,
   .hero-img {
     /* max-height: 600px; */
-    max-width: 720px;
+    max-width: 730px;
   }
 
   .hero-content {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   .portfolio {
